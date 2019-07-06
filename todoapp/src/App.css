@@ -1,0 +1,63 @@
+.todoDiv{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 1%;
+}
+.heading{
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  color: rgb(37, 1, 1);
+  background-color: rgb(212, 157, 157);
+  letter-spacing: 4px;
+  font-size: 33px;
+  box-shadow: 10px 6px 7px 1px grey; 
+}
+.formDiv{
+  margin: 0 auto;
+  width:60%;
+  text-align: center;
+  margin-top:3%;
+  background-color: dimgray;
+  box-shadow: 10px 6px 7px 2px grey; 
+}
+.taskDiv{
+  width:100%;
+  background-color: rgb(94, 104, 104);
+  color: maroon;
+  font-size: 23px;
+  font-family: 'Josefin Sans', sans-serif;
+  box-shadow: 10px 6px 0.7px 1px rgb(0, 51, 51); 
+  max-height: 520px;
+  overflow-y: scroll;
+    
+}
+.taskDiv li{
+  margin-top:4%;
+  letter-spacing: 2.6px;
+  line-height: 1.8;
+}
+#input{
+  margin-top: 4%;
+  background-color: coral;
+  border: none;
+  color:white;
+  height: 20px;
+  width: 90%;
+  border:none;
+  font-size: 22px;
+  font-family: 'Inconsolata', monospace;  
+}
+#btn{
+  margin-top:4%;
+  font-family: 'Kalam', cursive;
+  font-size: 23px;
+  border: none;
+  background-color: rgb(212, 157, 157);
+  color: rgb(37, 1, 1);
+  outline: none;
+}
+.header{
+  color:rgb(68, 39, 95);
+  background-color:  rgb(124, 179, 179);
+  box-shadow: none;
+}
